@@ -14,7 +14,7 @@ func main(){
   const d = 3e20 / n
   fmt.Println(d)
 
-  fmt.Println(int64(d))
+  fmt.Println(int64(d)) // Stores the value of "d" in 64-bit
 
   fmt.Println(math.Sin(n))
 
